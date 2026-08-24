@@ -1,0 +1,11 @@
+print("****************** Placement Eligibility Validator ******************")
+
+graduation_score = float(input("Enter your graduation score (%): "))
+backlogs = int(input("Enter number of active academic backlogs: "))
+
+if graduation_score >= 70 and backlogs == 0:
+    print("You are eligible for placement")
+else:
+    print("You are not eligible for placement")
+
+print("****************** Thank You ******************")
